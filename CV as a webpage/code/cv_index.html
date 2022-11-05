@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="https://kit.fontawesome.com/5b7abf1a46.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/logo1-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class=" fa-solid fa-x" onclick="closemenu()" style="color:#fff;"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" style="color:#fff"></i>
+        </nav>
+            <div class="header-text">
+                <p>Photographer and Web Designer</p>
+                <h1>Hi, I am Nuradilova<br><span>Burmachach</span></h1>
+            </div>
+        </div>
+    </div>
+    <!---------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/photo1667190944.jpeg">
+                </div>
+                <div class="about-col-1">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        I am new to the world of web technologies. I used to believe that I was not intelligent enough to learn programming,
+         but now I believe that I can be one of the best IT specialists. I am a n active Ala-Too International University student with impressive academic achievements. 
+         addtion, I posses strong leadership and communication abilities, as well as fluency in English, Russian, Kyrgyz, and Turkish.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Teaching</span><br>Teaching mathematics and English</li>
+                            <li><span>Video making</span><br>Making videos and editing</li>
+                            <li><span>Event Organizer</span><br>Organizing interesting events</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li><span>English</span><br>Upper-intermediate level</li>
+                            <li><span>Russian</span><br>Upper-intermediate</li>
+                            <li><span>Turkish</span><br>Intermediate</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Umarbekov Secondary School</span><br>2010-2016</li>
+                            <li><span>Meerim Sebat High School</span><br>2016-2021</li>
+                            <li><span>Ala-Too International University</span><br>2021-Current</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!------------------works--------------->
+<div id="works">
+    <div class="container">
+        <h1 class="subtitle">My Works</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="/images/work1.png">
+                <div class="layer">
+                    <h3>HTML document with links</h3>
+                    <p>HTML document with table that contains PC properties with their some info and photo</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work2.png">
+                <div class="layer">
+                    <h3>HTML document with table</h3>
+                    <p>HTML document with table which is created by using grid</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work3.png">
+                <div class="layer">
+                    <h3>Silly story maker</h3>
+                    <p>HTML document which creates silly stories about the person</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-------------Resume------------------>
+<div id="resume">
+    <div class="container">
+        <div class="row">
+    <div class="about-col-2">
+        <img src="/images/Nuradilova burmachach.png" alt="resume">
+    </div>
+    <div class="about-col-3">
+        <h1 class="subtitle">Resume</h1>
+        <p class="resume-dis">It is my resume in a russian language. Here you can find whole information about me: education, skills, experience and etc</p>
+        
+        <a class="btn" href="https://www.canva.com/design/DAEXxNudnfM/RrLfB5ru_uuv1x_sVBhmNA/view?utm_content=DAEXxNudnfM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" download>
+            Open a resume in a new tab
+        </a>
+        
+    </div>
+        
+    </div>
+</div>
+</div>
+
+<!----------------Gallery-->
+<div id="gallery">
+    <div class="container">
+        <h1 class="subtitle">Gallery</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="/images/photo1667624880.jpeg">
+                <div class="layer">
+                    <h3>Bishkek clock</h3>
+        
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/photo2.jpeg">
+                <div class="layer">
+                    <h3>Sky in Issyk-Kul</h3>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/photo1667625102.jpeg">
+                <div class="layer">
+                    <h3>Street light</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--------------contact-->
+<hr>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p>burmachach2004@gmail.com</p>
+                <p>+996 555 159245</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/appleloverz29"><i class="fa-solid fa-phone"></i></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+   
+    
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
